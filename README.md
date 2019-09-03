@@ -32,6 +32,7 @@ please create a PR or open an issue!
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | untrusted.rs | https://github.com/briansmith/untrusted | Allows for reliable and efficient parsing of untrusted inputs in Rust. |
+| semval | https://github.com/slowtec/semval | Library for semantic validation of complex data structures in Rust. |
 ---
 # Vulnerability Disclosure
 
