@@ -57,6 +57,13 @@ please create a PR or open an issue!
 | libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
 | rust-san | https://github.com/japaric/rust-san | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
 ---
+# Side-Channel Vulnerability Checking
+|     Name     |                Repository               |                               Description                              |
+|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
+| SideFuzz | https://github.com/phayes/sidefuzz | SideFuzz is an adaptive fuzzer that uses a genetic-algorithim optimizer in combination with t-statistics to find side-channel (timing) vulnerabilities in cryptography compiled to wasm.      |
+| dudect-bencher  | https://github.com/rozbb/dudect-bencher  | Implements the DudeCT statistical methods for testing constant-time functions. It is based loosely off of the bencher crate. |
+| ctgrind  |   https://github.com/RustCrypto/utils/tree/master/ctgrind  | Tool for checking that functions are constant time using Valgrind. Based on the work of Adam Langley and Michael Gehring. |
+---
 # Code Review
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
