@@ -47,7 +47,7 @@ please create a PR or open an issue!
 # Dependency Checker
 |           Name            |                Repository                     |                      Description                       |
 |:-------------------------:|:---------------------------------------------:|:------------------------------------------------------:|
-|        Cargo Geiger       |    https://github.com/anderejd/cargo-geiger   | A program that list statistics related to usage of unsafe Rust code in a Rust crate and all its dependencies. |
+|        Cargo Geiger       |    https://github.com/rust-secure-code/cargo-geiger   | A program that list statistics related to usage of unsafe Rust code in a Rust crate and all its dependencies. |
 ---
 # Static and Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
