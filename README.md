@@ -48,7 +48,7 @@ please create a PR or open an issue!
 |           Name            |                Repository                     |                      Description                       |
 |:-------------------------:|:---------------------------------------------:|:------------------------------------------------------:|
 |        Cargo Geiger       |    https://github.com/rust-secure-code/cargo-geiger   | A program that list statistics related to usage of unsafe Rust code in a Rust crate and all its dependencies. |
-|        Siderophile        |  https://github.com/trailofbits/siderophile/  | A program that list statistics of functions that use unsafe code in their call graph. It helps find fuzzing candidates. Developed by Trail of Bits. |
+|        Siderophile        |  https://github.com/trailofbits/siderophile/  | A program that list statistics of functions that use unsafe code in their call graph. It helps find fuzzing candidates. |
 ---
 # Static and Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
