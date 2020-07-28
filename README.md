@@ -16,11 +16,11 @@ please create a PR or open an issue!
 ---
 # Model Checkers
 
-|     Name     |                Repository               |                               Description                              |
-|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-|     Loom     |    https://github.com/carllerche/loom   | Loom is a model checker for concurrent Rust code. It exhaustively explores the behaviors of code under the C11 memory model, which Rust inherits. |
-| BugHunt-Rust |   https://github.com/blt/bughunt-rust   | This project is aiming to provide "stateful" QuickCheck models for Rust's standard library. |
-| arbitrary-model-tests |   https://github.com/jakubadamw/arbitrary-model-tests  | А procedural macro to be used for testing/fuzzing stateful models against an equivalent implementation. |
+|     Name     |                Repository                  |                               Description                              |
+|:------------:|:------------------------------------------:|:----------------------------------------------------------------------:|
+|     Loom     |    https://github.com/carllerche/loom      | Loom is a model checker for concurrent Rust code. It exhaustively explores the behaviors of code under the C11 memory model, which Rust inherits. |
+| BugHunt-Rust |   https://github.com/blt/bughunt-rust      | This project is aiming to provide "stateful" QuickCheck models for Rust's standard library. |
+| rutenspitz   |   https://github.com/jakubadamw/rutenspitz | А procedural macro to be used for testing/fuzzing stateful models against an equivalent implementation. |
 ---
 # Linters
 |     Name     |                Repository                |                               Description                              |
