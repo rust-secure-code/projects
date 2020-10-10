@@ -26,6 +26,19 @@ please create a PR or open an issue!
 |:------------:|:----------------------------------------:|:----------------------------------------------------------------------:|
 | Cargo Clippy | https://github.com/rust-lang/rust-clippy | A collection of lints to catch common mistakes and improve your Rust code. |
 ---
+# Static Analyzers
+|     Name     |                Repository               |                               Description                              |
+|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
+| MIRAI | https://github.com/facebookexperimental/MIRAI | Mirai is an abstract interpreter for the Rust compiler's mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust.                 |
+| Prusti  |   https://github.com/viperproject/prusti-dev  | A static verifier for Rust, based on the Viper verification infrastructure. |
+---
+# Dynamic Analyzers
+|     Name     |                Repository               |                               Description                              |
+|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
+| MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. |
+| libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
+| rust-san | https://github.com/japaric/rust-san | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
+---
 # Input Sanitizing
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
@@ -50,19 +63,6 @@ please create a PR or open an issue!
 |        Cargo Geiger       |    https://github.com/rust-secure-code/cargo-geiger   | A program that list statistics related to usage of unsafe Rust code in a Rust crate and all its dependencies. |
 |        Cargo Guppy        |    https://github.com/facebookincubator/cargo-guppy   | A program/library for performing queries on Cargo dependency graphs |
 |        Siderophile        |  https://github.com/trailofbits/siderophile/  | A program that list statistics of functions that use unsafe code in their call graph. It helps find fuzzing candidates. |
----
-# Static Analyzers
-|     Name     |                Repository               |                               Description                              |
-|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-| MIRAI | https://github.com/facebookexperimental/MIRAI | Mirai is an abstract interpreter for the Rust compiler's mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust.                 |
-| Prusti  |   https://github.com/viperproject/prusti-dev  | A static verifier for Rust, based on the Viper verification infrastructure. |
----
-# Dynamic Analyzers
-|     Name     |                Repository               |                               Description                              |
-|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-| MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. |
-| libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
-| rust-san | https://github.com/japaric/rust-san | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
 ---
 # Side-Channel Vulnerability Checking
 |     Name     |                Repository               |                               Description                              |
