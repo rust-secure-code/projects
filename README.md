@@ -37,8 +37,8 @@ please create a PR or open an issue!
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. |
+| rust-san | [built into the compiler](https://doc.rust-lang.org/unstable-book/compiler-flags/sanitizer.html) | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
 | libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
-| rust-san | https://github.com/japaric/rust-san | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
 ---
 # Input Sanitizing
 |     Name     |                Repository               |                               Description                              |
