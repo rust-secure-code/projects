@@ -31,6 +31,7 @@ please create a PR or open an issue!
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | MIRAI | https://github.com/facebookexperimental/MIRAI | Mirai is an abstract interpreter for the Rust compiler's mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust.                 |
 | Prusti  |   https://github.com/viperproject/prusti-dev  | A static verifier for Rust, based on the Viper verification infrastructure. |
+| Crux | https://github.com/GaloisInc/crucible | Symbolic execution tool to run tests on all possible inputs, exhaustively. |
 ---
 # Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
