@@ -36,9 +36,11 @@ please create a PR or open an issue!
 # Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-| MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. |
 | rust-san | [built into the compiler](https://doc.rust-lang.org/unstable-book/compiler-flags/sanitizer.html) | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
-| libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
+| MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior, including Rust-specific ones that sanitizers cannot detect. |
+
+Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. Memory](http://www.drmemory.org/), [libdiffuzz](https://github.com/Shnatsel/libdiffuzz) etc. also work.
+
 ---
 # Input Sanitizing
 |     Name     |                Repository               |                               Description                              |
