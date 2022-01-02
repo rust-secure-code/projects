@@ -21,6 +21,7 @@ please create a PR or open an issue!
 |:------------:|:------------------------------------------:|:----------------------------------------------------------------------:|
 |     Loom     |    https://github.com/carllerche/loom      | Loom is a model checker for concurrent Rust code. It exhaustively explores the behaviors of code under the C11 memory model, which Rust inherits. |
 | rutenspitz   |   https://github.com/jakubadamw/rutenspitz | А procedural macro to be used for testing/fuzzing stateful models against an equivalent implementation. |
+| Rust Model Checker (RMC)   | https://github.com/model-checking/rmc | Bit-precise Rust model checker based on [CBMC](http://www.cprover.org/cbmc/). |
 ---
 # Linters
 |     Name     |                Repository                |                               Description                              |
@@ -33,6 +34,7 @@ please create a PR or open an issue!
 | MIRAI | https://github.com/facebookexperimental/MIRAI | Mirai is an abstract interpreter for the Rust compiler's mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust.                 |
 | Prusti  |   https://github.com/viperproject/prusti-dev  | A static verifier for Rust, based on the Viper verification infrastructure. |
 | Crux | https://github.com/GaloisInc/crucible | Symbolic execution tool to run tests on all possible inputs, exhaustively. |
+| Rudra | https://github.com/sslab-gatech/Rudra | Static analyzer for finding memory safety bugs in `unsafe` Rust code. |
 ---
 # Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
@@ -49,6 +51,12 @@ Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. M
 | untrusted.rs | https://github.com/briansmith/untrusted | Allows for reliable and efficient parsing of untrusted inputs in Rust. |
 | dangerous | https://github.com/avitex/rust-dangerous | Similar to `untrusted` but with a different API and more verbose error messages |
 | semval | https://github.com/slowtec/semval | Library for semantic validation of complex data structures in Rust. |
+---
+# Hardened Allocators
+|     Name     |                Repository               |                               Description                              |
+|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
+| scudo | https://github.com/google/rust-scudo | Rust bindings for the LLVM project's [Scudo](https://llvm.org/docs/ScudoHardenedAllocator.html) hardened allocator. |
+| mimalloc | https://github.com/purpleprotocol/mimalloc_rust | Rust bindings for Microsoft's [mimalloc](https://github.com/microsoft/mimalloc) allocator. Security features are an optional build-time configuration. |
 ---
 # Vulnerability Disclosure
 
@@ -79,3 +87,9 @@ Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. M
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | Cargo Crev | https://github.com/dpc/crev | crev is an code review system as opposed to typically practiced code-change review system. |
+
+---
+# Books/Guides
+|     Name     |                Repository               |                               Description                              |
+|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
+| Secure Rust Guidelines | https://github.com/ANSSI-FR/rust-guide | A guide providing recommendations and resources for secure application development in Rust. |
