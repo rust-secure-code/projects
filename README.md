@@ -11,6 +11,7 @@ please create a PR or open an issue!
 |  Cargo Fuzz  |  https://github.com/rust-fuzz/cargo-fuzz  | Command-line wrapper for using libFuzzer. Easy to use, no need to recompile LLVM! |
 | honggfuzz-rs | https://github.com/rust-fuzz/honggfuzz-rs | A fuzzer developed by Google. |
 | afl.rs       | https://github.com/rust-fuzz/afl.rs       | Allows one to run the AFL fuzzer on code written in the Rust programming language.                                                                                                                   |
+| cargo-libafl | https://github.com/AFLplusplus/cargo-libafl | A fuzzer backed by [LibAFL](https://github.com/AFLplusplus/LibAFL) |
 | fuzzcheck | https://github.com/loiclec/fuzzcheck-rs | An experimental fuzzing engine that mutates Rust data structures directly, bypassing conversion to/from byte strings |
 | QuickCheck   | https://github.com/BurntSushi/quickcheck  | QuickCheck is a way to do property based testing using randomly generated input.                                                                                                                     |
 | Proptest     | https://github.com/altsysrq/proptest      | Proptest is a property testing framework (i.e., the QuickCheck family) inspired by the Hypothesis framework for Python.                                                                              |
