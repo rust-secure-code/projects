@@ -94,3 +94,11 @@ Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. M
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | Secure Rust Guidelines | https://github.com/ANSSI-FR/rust-guide | A guide providing recommendations and resources for secure application development in Rust. |
+
+---
+# Groups of people
+| Name | Repository | Description |
+|:----:|:----------:|:-----------:|
+| Rust Secure Code Working Group (Secure Code WG) | https://github.com/rust-secure-code/wg | Us, [an official Rust working group](https://www.rust-lang.org/governance/wgs/wg-secure-code): "Making it easy to write secure code in Rust" |
+| Rust Formal Methods Interest Group (RFMIG) | https://github.com/rust-formal-methods/wg | Interest group for using [formal methods](https://en.wikipedia.org/wiki/Formal_methods) to verify the correctness of Rust software &mdash; not part of the Rust governance structure |
+| Rust VMM community | https://github.com/rust-vmm/community | "rust-vmm is an open-source project [...] to build custom Virtual Machine Monitors (VMMs) and hypervisors" |
