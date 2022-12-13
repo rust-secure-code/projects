@@ -87,7 +87,8 @@ Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. M
 # Code Review
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-| Cargo Crev | https://github.com/dpc/crev | crev is an code review system as opposed to typically practiced code-change review system. |
+| cargo crev | https://github.com/dpc/crev | crev is an code review system as opposed to typically practiced code-change review system. |
+| cargo vet | https://github.com/mozilla/cargo-vet | a tool to help projects ensure that third-party Rust dependencies have been audited by a trusted source. |
 
 ---
 # Books/Guides
