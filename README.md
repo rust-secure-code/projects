@@ -67,7 +67,7 @@ Language-independent tools such as [Valgrind](https://www.valgrind.org/), [Dr. M
 |  RustSec Advisory Client  |    https://github.com/RustSec/rustsec-crate   | Client library for accessing the RustSec Security Advisory Database: fetches the advisory-db (or other compatible) git repository and audits Cargo.lock files against it. It is mainly used by   Cargo Audit but may be useful if you would like to consume the RustSec advisory database in other capacities. |
 |        Cargo Audit        |     https://github.com/RustSec/cargo-audit    | Audit Cargo.lock for crates with security vulnerabilities reported to the RustSec Advisory Database. |
 |       Crates Audit        |  https://gitlab.com/zachreizner/crates-audit/ | A tool to cross-reference the crates.io index with the RustSec Advisory database. |
-|        Cargo deny         |  https://github.com/EmbarkStudios/cargo-deny  | A tool for checking you dependencies given some set of predefined rules. It can check for license conflict, banned crates, vulnerabilities and source of crates. The rules are defined in the [`deny.toml`](https://github.com/EmbarkStudios/cargo-deny/blob/main/deny.template.toml) file and can be configured for your needs. |
+|        Cargo deny         |  https://github.com/EmbarkStudios/cargo-deny  | A tool for checking your dependencies given some set of predefined rules. It can check for license conflict, banned crates, vulnerabilities and source of crates. The rules are defined in the [`deny.toml`](https://github.com/EmbarkStudios/cargo-deny/blob/main/deny.template.toml) file and can be configured for your needs. |
 
 ---
 # Dependency Checker
