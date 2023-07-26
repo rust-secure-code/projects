@@ -15,7 +15,7 @@ please create a PR or open an issue!
 | fuzzcheck | https://github.com/loiclec/fuzzcheck-rs | An experimental fuzzing engine that mutates Rust data structures directly, bypassing conversion to/from byte strings |
 | QuickCheck   | https://github.com/BurntSushi/quickcheck  | QuickCheck is a way to do property based testing using randomly generated input.                                                                                                                     |
 | Proptest     | https://github.com/altsysrq/proptest      | Proptest is a property testing framework (i.e., the QuickCheck family) inspired by the Hypothesis framework for Python.                                                                              |
-| rusty-radamsa | https://github.com/microsoft/rusty-radamsa | [Radamsa](https://gitlab.com/akihe/radamsa) ported to Rust. |
+| rusty-radamsa | https://github.com/microsoft/rusty-radamsa | [Radamsa](https://gitlab.com/akihe/radamsa) ported to Rust. Fuzzer with good mutators but lacking coverage guidance. |
 ---
 # Model Checkers
 
