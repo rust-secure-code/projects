@@ -37,6 +37,7 @@ please create a PR or open an issue!
 | Prusti  |   https://github.com/viperproject/prusti-dev  | A static verifier for Rust, based on the Viper verification infrastructure. |
 | Crux | https://github.com/GaloisInc/crucible | Symbolic execution tool to run tests on all possible inputs, exhaustively. |
 | Rudra | https://github.com/sslab-gatech/Rudra | Static analyzer for finding memory safety bugs in `unsafe` Rust code. |
+| L3X | https://github.com/VulnPlanet/l3x/ | AI-driven Static Analyzer. |
 ---
 # Dynamic Analyzers
 |     Name     |                Repository               |                               Description                              |
